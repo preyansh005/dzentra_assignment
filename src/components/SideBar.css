@@ -1,0 +1,14 @@
+.sidebar{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.laundary , .menu, .item{
+    display: flex;
+}
+.menu{
+    flex-direction: column;
+}
+.menu div{
+    cursor: pointer;
+}
