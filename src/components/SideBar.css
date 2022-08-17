@@ -29,3 +29,18 @@
 .menu .item i{
     margin-right: 10px;
 }
+.menu .item .yellow{
+    color: #FF9900;
+}
+.menu .item .green{
+    color: #109618;
+}
+.menu .item .blue{
+    color: #3366CC;
+}
+.menu .item .purple{
+    color: #990099;
+}
+.menu .item .red{
+    color: #DC3912;
+}

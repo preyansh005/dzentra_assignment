@@ -8,11 +8,29 @@
     box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 50%);
 }
 .box i{
+    padding: 8px;
     margin-left: 30px;
+    border-radius: 50%;
 }
 .box .inner-box h5{
     margin-bottom: 10px;
 }
 .box .inner-box h3{
     color: rgb(52, 52, 52);
+}
+.box .yellow{
+    background-color: #FF9900;
+    color: white;
+}
+.box .green{
+    background-color: #109618;
+    color: white;
+}
+.box .blue{
+    background-color: #3366CC;
+    color: white;
+}
+.box .red{
+    background-color: #DC3912;
+    color: white;
 }

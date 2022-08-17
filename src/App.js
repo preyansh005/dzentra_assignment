@@ -16,10 +16,10 @@ function App() {
         <Navbar />
       </div>
     <div className="orders">
-      <Order name="PENDING ORDER" number={202} className="fa-cart-shopping"/>
-      <Order name="PROCESSING ORDER" number={99} className="fa-cart-shopping"/>
-      <Order name="READY TO DELIVER" number={263} className="fa-thumbs-up"/>
-      <Order name="DELIVERED ORDERS" number={345} className="fa-check"/>
+      <Order name="PENDING ORDER" number={202} className="fa-cart-shopping red"/>
+      <Order name="PROCESSING ORDER" number={99} className="fa-cart-shopping yellow"/>
+      <Order name="READY TO DELIVER" number={263} className="fa-thumbs-up green"/>
+      <Order name="DELIVERED ORDERS" number={345} className="fa-check blue"/>
     </div>
     <div className="section-2">
       <Delivery />
