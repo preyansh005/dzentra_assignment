@@ -1,4 +1,19 @@
 .box{
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    margin: 20px 0px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 50%);
+}
+.box i{
+    margin-left: 30px;
+}
+.box .inner-box h5{
+    margin-bottom: 10px;
+}
+.box .inner-box h3{
+    color: black;
 }

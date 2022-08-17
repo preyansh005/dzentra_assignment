@@ -1,14 +1,30 @@
-.sidebar{
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
-}
 .laundary , .menu, .item{
     display: flex;
 }
+.laundary{
+    margin-bottom: 2rem;
+    padding: 5px 0px;
+    font-size: 40px;
+    align-items: center;
+    color: rgb(21, 21, 21);
+}
+.laundary i, .laundary h3{
+    margin: 5px;
+}
 .menu{
+    margin:10px;
     flex-direction: column;
 }
-.menu div{
-    cursor: pointer;
+.menu .item{
+    align-items: center;
+    padding: 20px 12px;
+    font-size: 16px;
+}
+.menu .item-1{
+    background-color: #0183FD;
+    border-radius: 6px;
+    color: white;
+}
+.menu .item i{
+    margin-right: 10px;
 }

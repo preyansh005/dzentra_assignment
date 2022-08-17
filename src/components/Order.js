@@ -8,7 +8,7 @@ export default function Order(props) {
       <div className="box">
         <div className="inner-box">
           <h5 className="name">{props.name}</h5>
-          <h5 className="number">{props.number}</h5>
+          <h3 className="number">{props.number}</h3>
         </div>
         <i className={`fa-solid ${props.className}`}></i>
       </div>

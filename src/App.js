@@ -12,7 +12,7 @@ function App() {
       <SideBar />
     </div>
     <div className="mainsidebar-2">
-      <div className='navbar'>
+      <div className='mainnavbar'>
         <Navbar />
       </div>
     <div className="orders">

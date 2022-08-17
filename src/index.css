@@ -1,7 +1,16 @@
-*{
+* {
     margin: 0;
     padding: 0;
-    scroll-behavior: smooth;
-    background-color: beige;
     font-family: 'Noto Sans', sans-serif;
+}
+::selection{
+    color: white;
+    background-color: #0183FD;
+}
+#root {
+    color: #8292AB;
+    display: flex;
+    padding: 10px 20px;
+    background: #0183FD;
+    background: linear-gradient(180deg, #0183FD 30%, rgba(255, 255, 255, 1) 30%);
 }

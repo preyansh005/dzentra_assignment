@@ -1,0 +1,41 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0px 10px;
+}
+
+.navbar i {
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+}
+
+.navbar .right-grp {
+    display: flex;
+    align-items: center;
+    width: 22%;
+    justify-content: space-between;
+}
+
+.navbar .right-grp .right-grp-1 {
+    display: flex;
+}
+.navbar .right-grp .right-grp-1 i{
+    padding: 0 8px;
+}
+
+.navbar .right-grp .right-grp-2 {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 5px 10px;
+    font-size: 20px;
+    color: #0183FD;
+    border-radius: 8px;
+}
+.navbar .right-grp .right-grp-2 i{
+    padding: 0 10px;
+    color: #8292AB;
+}
