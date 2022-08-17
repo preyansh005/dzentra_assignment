@@ -39,3 +39,22 @@
     padding: 0 10px;
     color: #8292AB;
 }
+
+@media screen and (max-width: 768px) {
+    .navbar{
+        padding: 0;
+        width: auto;
+    }
+    .navbar .right-grp{
+        width: auto;
+    }
+    .navbar .right-grp .right-grp-1{
+        margin: 10px 12px 10px 0;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 481px){
+    .navbar{
+        margin: 0 20px;
+    }
+}

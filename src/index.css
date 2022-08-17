@@ -3,14 +3,22 @@
     padding: 0;
     font-family: 'Noto Sans', sans-serif;
 }
-::selection{
+
+::selection {
     color: white;
     background-color: #3366CC;
 }
+
 #root {
     color: #8292AB;
     display: flex;
     padding: 10px 20px;
     background: #3366CC;
     background: linear-gradient(180deg, #3366CC 40%, rgba(255, 255, 255, 1) 40%);
+}
+
+@media screen and (max-width: 768px) {
+    #root {
+        background: linear-gradient(180deg, #3366CC 20%, rgba(255, 255, 255, 1) 20%);
+    }
 }

@@ -1,11 +1,12 @@
 .box{
     display: flex;
     align-items: center;
+    justify-content: space-between;
     margin: 20px 0px;
     padding: 15px;
     background-color: white;
     border-radius: 8px;
-    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 50%);
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 5%), 0 6px 20px 0 rgb(0 0 0 / 10%);
 }
 .box i{
     padding: 8px;
@@ -33,4 +34,25 @@
 .box .red{
     background-color: #DC3912;
     color: white;
+}
+
+@media screen and (max-width: 480px) {
+    .box{
+        flex: 100%;
+        justify-content: space-between;
+        margin: 1.5rem 0 0 0;
+    }
+    .box .inner-box{
+        padding: 10px;
+    }
+}
+@media screen and (max-width: 768px) and (min-width: 481px){
+    .box{
+        flex: 40%;
+        margin: 15px;
+        padding: 20px 30px;
+    }
+    .box .inner-box{
+        padding: 0;
+    }
 }

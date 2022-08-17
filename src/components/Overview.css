@@ -1,6 +1,6 @@
 .overview{
     background-color: #fff;
-    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 50%);
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 5%), 0 6px 20px 0 rgb(0 0 0 / 10%);
     width: 40%;
     margin: 0px 1rem;
     border-radius: 10px;
@@ -44,4 +44,16 @@
 }
 .overview .overview-item .overview-item-1 .purple{
     color: #990099;
+}
+
+@media screen and (max-width: 768px) {
+    .overview{
+        flex: 100%;
+        margin: 1.5rem 0;
+    }
+}
+@media screen and (max-width: 768px) and (min-width: 481px){
+    .overview{
+        margin: 0;
+    }
 }
