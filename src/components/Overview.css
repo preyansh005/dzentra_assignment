@@ -1,0 +1,47 @@
+.overview{
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 50%);
+    width: 40%;
+    margin: 0px 1rem;
+    border-radius: 10px;
+    padding: 10px 15px;
+}
+.overview h3{
+    font-size: 22px;
+    color: rgb(77, 77, 77);
+}
+.overview .overview-item img{
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+.overview .overview-item .overview-item-1{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    flex-wrap: wrap;
+}
+.overview .overview-item .overview-item-1 div{
+    display: flex;
+    margin: 10px;
+    align-items: center;
+    flex: 40% 1;
+    font-size: 13px;
+    color: #4d4d4d;
+}
+.overview .overview-item .overview-item-1 i{
+    margin-right: 8px;
+    font-size: 10px;
+}
+.overview .overview-item .overview-item-1 .yellow{
+    color: #FF9900;
+}
+.overview .overview-item .overview-item-1 .green{
+    color: #109618;
+}
+.overview .overview-item .overview-item-1 .blue{
+    color: #3366CC;
+}
+.overview .overview-item .overview-item-1 .purple{
+    color: #990099;
+}

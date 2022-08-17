@@ -65,14 +65,14 @@
     font-size: 20px;
 }
 .delivery-sec-2 .yellow{
-    border: 1px solid #FAA204;
-    border-left: 6px solid #FAA204;
+    border: 1px solid #FF9900;
+    border-left: 6px solid #FF9900;
 }
 .delivery-sec-2 .red{
-    border: 1px solid #FF7276;
-    border-left: 6px solid #FF7276;
+    border: 1px solid #DC3912;
+    border-left: 6px solid #DC3912;
 }
 .delivery-sec-2 .gray{
-    border: 1px solid #8B837E;
-    border-left: 6px solid #8B837E;
+    border: 1px solid #3366CC;
+    border-left: 6px solid #3366CC;
 }
