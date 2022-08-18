@@ -77,7 +77,7 @@
     border-left: 6px solid #3366CC;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1200px) {
     .delivery{
         flex: 100%;
         margin: 3rem 0 0 0;
@@ -92,5 +92,11 @@
 @media screen and (max-width: 768px) and (min-width: 481px) {
     .delivery{
         margin: 2rem 0;
+    }
+}
+
+@media screen and (max-width: 1200px) and (min-width: 769px) {
+    .delivery{
+        margin: 1.5rem 10px;
     }
 }

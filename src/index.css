@@ -17,7 +17,7 @@
     background: linear-gradient(180deg, #3366CC 40%, rgba(255, 255, 255, 1) 40%);
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1200px) {
     #root {
         background: linear-gradient(180deg, #3366CC 20%, rgba(255, 255, 255, 1) 20%);
     }

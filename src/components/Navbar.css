@@ -3,7 +3,7 @@
     align-items: center;
     width: 100%;
     justify-content: space-between;
-    padding: 0px 10px;
+    /* padding: 0px 10px; */
 }
 
 .navbar i {
@@ -56,5 +56,21 @@
 @media screen and (max-width: 768px) and (min-width: 481px){
     .navbar{
         margin: 0 20px;
+    }
+}
+
+@media screen and (max-width: 1200px) and (min-width: 769px) {
+    .navbar{
+        margin: 0 10px;
+        width: auto;
+    }
+    .navbar .right-grp{
+        width: auto;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .navbar .right-grp{
+        width: 20%;
     }
 }
